@@ -1,0 +1,28 @@
+
+body {
+    background-color: grey;
+}
+
+.lightbox.on:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.on {
+    background-color: yellow;
+    color: black;
+}
+
+#puzzleContainer button:not(.on) {
+    background-color: black;
+    color: white;
+}
+
+#puzzleContainerbutton:not(.on):hover {
+    background-color: black;
+    color: white;
+}
+
+.furryimg{
+    border-radius: 50%;
+}
